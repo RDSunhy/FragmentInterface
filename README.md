@@ -1,2 +1,5 @@
 # FragmentInterface
-根据教学视频学习的一个Fragment通信的框架
+学习“万能的Interface”视频后的实践  
+Fragment通信还是基于接口的方式，加入面向对象的思想把接口看成一个对象去进行拆分  
+最终实现了由FunctionsManager对接口统一管理，Fragment中只需要定义接口名称（名称要唯一），Activity中将接口实现并添加到HashMap中  
+Fragment调用接口时，通过传入接口名FunctionsManager查找接口并且执行对应的实现代码。
